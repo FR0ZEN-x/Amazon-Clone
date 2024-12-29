@@ -32,9 +32,13 @@ The Amazon Clone frontend project aims to provide a similar look and feel to the
 - **LinkedIn**: [Shaik Abdul Munawar](https://www.linkedin.com/in/shaik-abdul-munawar-b35821284)
 
 ## Screenshots
-
+**Homepage**
 ![Homepage](Images/homepage_screenshot.png)
+
+**Login Page**
 ![Login Page](Images/login_screenshot.png)
+
+**Register Page**
 ![Register Page](Images/register_screenshot.png)
 
 ## License
