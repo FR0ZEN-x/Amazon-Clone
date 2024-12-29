@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">    
+    <link rel="stylesheet" href="Index.css"/>
+    <!-- <link rel="icon" type="box8.4_image.png" href="path-to-your-favicon"/> -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎮</text></svg>"></link>
+    <style>
+        .mobile-menu-toggle {
+            display: none;
+            cursor: pointer;
+            font-size: 24px;
+            color: white;
+        }
+        .mobile-menu {
+            display: none;
+            position: fixed;
+            top: 60px;
+            left: 0;
+            width: 100%;
+            background-color: #232f3e;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .mobile-menu.active {
+            display: block;
+        }
+        @media screen and (max-width: 768px) {
+            .mobile-menu-toggle {
+                display: block;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="Index.css">
+    <script src="Index.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="navlogo border">
+                <a href="Index.html">
+                    <div class="logo"></div>
+                </a>
+            </div>
+            
+            <div class="nav-address border">
+                <div class="address-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="address-content">
+                    <p class="address-p1">Deliver to</p>
+                    <p class="address-p2">India</p>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <select class="search-select">
+                    <option value="all" selected>All</option>
+                    <option value="arts">Arts & Crafts</option>
+                    <option value="automotive">Automotive</option>
+                    <option value="baby">Baby</option>
+                    <option value="beauty">Beauty & Personal Care</option>
+                    <option value="books">Books</option>
+                    <option value="computers">Computers</option>
+                    <option value="electronics">Electronics</option>
+                    <option value="fashion">Fashion</option>
+                    <option value="health">Health & Household</option>
+                    <option value="home">Home & Kitchen</option>
+                    <option value="industrial">Industrial & Scientific</option>
+                    <option value="movies">Movies & TV</option>
+                    <option value="music">Music, CDs & Vinyl</option>
+                    <option value="pet">Pet Supplies</option>
+                    <option value="software">Software</option>
+                    <option value="sports">Sports & Outdoors</option>
+                    <option value="tools">Tools & Home Improvement</option>
+                    <option value="toys">Toys & Games</option>
+                    <option value="videogames">Video Games</option>
+                </select>
+                <input type="text" placeholder="Search Amazon" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="nav-region border">
+                <img src="India_image.png" alt="Indian Flag" class="indian-flag">
+                <select class="region-select">
+                    <option value="EN" selected>English</option>
+                    <option value="HI">हिंदी (Hindi)</option>
+                    <option value="BN">বাংলা (Bengali)</option>
+                    <option value="TE">తెలుగు (Telugu)</option>
+                    <option value="MR">मराठी (Marathi)</option>
+                    <option value="TA">தமிழ் (Tamil)</option>
+                </select>
+            </div>
+
+            <div class="nav-signin border">
+                <P><span>Hello, sign in</span></P>
+                <P class="signin-p1">Accounts & Lists</P>
+                <div class="signin-dropdown">
+                    <a href="register.html">Create Account</a>
+                    <a href="login.html">Sign In</a>
+                </div>
+            </div>
+
+            <div class="nav-orders border">
+                <P><span>Returns</span></P>
+                <P class="signin-p1">& Orders</P>
+            </div>
+
+            <div class="nav-cart border">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-text">Cart</span>
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-all border">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+           
+            <div class="panel-ops">
+                <p class="border">Today's Deals</p>
+                <p class="border">Customer Service</p>
+                <p class="border">Registry</p>
+                <p class="border">Gift Cards</p>
+                <p class="border">Sell</p>
+            </div>
+
+            <div class="panel-deals border">
+                Shop deals in Electronics
+            </div>
+        </div>
+    </header>
+
+    <div class="body">
+        <div class="body-p1">
+            <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a>Click here to go to amazon.in</a></p>
+        </div>
+    </div>
+
+    <div class="body-content">
+        <div class="box">
+            <div class="box-content">
+            <h2>Clothes</h2>
+            <div class="box-image" style="background-image: url('box1_image.jpg');"></div>
+            <a>Shop more</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h2>Health & Personl Care</h2>
+                <div class="box-image" style="background-image: url('box2_image.jpg');"></div>
+                <a>Shop more</a>
+                </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h2>Furniture</h2>
+                <div class="box-image" style="background-image: url('box3_image.jpg');"></div>
+                <a>Shop more</a>
+                </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h2>Electronics</h2>
+                <div class="box-image" style="background-image: url('box4_image.jpg');"></div>
+                <a>Shop more</a>
+                </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+            <h2>Beauty Picks</h2>
+            <div class="box-image" style="background-image: url('box5_image.jpg');"></div>
+            <a>Shop more</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h2>Pet's Care</h2>
+                <div class="box-image" style="background-image: url('box6_image.jpg');"></div>
+                <a>Shop more</a>
+                </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h2>Toys</h2>
+                <div class="box-image" style="background-image: url('box7_image.jpg');"></div>
+                <a>Shop more</a>
+                </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h2>Gaming Accessories</h2>
+                <div class="box8-images">
+                    <div class="box8-image" style="background-image: url('box8.1_image.png');"></div>
+                    <div class="box8-image" style="background-image: url('box8.2_image.png');"></div>
+                    <div class="box8-image" style="background-image: url('box8.3_image.png');"></div>
+                    <div class="box8-image" style="background-image: url('box8.4_image.png');"></div>
+                </div>
+                <a>Shop more</a>
+                </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="foot-panel1">
+            Back to top
+        </div>
+        <div class="foot-panel2">
+            <ul>
+                <p>Get to Know Us</p>
+                <a>About Amazon</a>
+                <a>Careers</a>
+                <a>Press Releases</a>
+                <a>Amazon Science</a>
+            </ul>
+
+            <ul>
+                <p>Connect with Us</p>
+                <a>Facebook</a>
+                <a>Twitter</a>
+                <a>Instagram</a>
+
+            </ul>
+
+            <ul>
+                <p>Make Money with Us</p>
+                <a>Sell on Amazon</a>
+                <a>Sell under Amazon Accelerator</a>
+                <a>Protect and Build Your Brand</a>
+                <a>Amazon Global Selling</a>
+                <a>Supply to Amazon</a>
+                <a>Become an Affiliate</a>
+                <a>Fulfilment by Amazon</a>
+                <a>Advertise Your Products</a>
+                <a>Amazon Pay on Merchants</a>
+
+            </ul>
+
+            <ul>
+                <p>Let Us Help You</p>
+                <a>Your Account</a>
+                <a>Returns Centre</a>
+                <a>100% Purchase Protection</a>
+                <a>100% Purchase Protection</a>
+                <a>Amazon App Download</a>
+                <a>Help</a>
+
+            </ul>
+        </div>
+
+        <div class="foot-panel3">
+            <div class="panel3-logo"></div>
+        </div>
+
+        <div class="foot-panel4">
+            <div class="pages">
+                <a>Conditions of use</a>
+                <a>Privacy Notice</a>
+                <a>your Ads Privacy Choices</a>
+            </div>
+            <div class="copyright">
+                © 1996-2024, Amazon.com, Inc. or its affiliates
+            </div>
+        </div>
+    </footer>
+    <script src="Index.js"></script>
+
+    <!-- Add this just before the closing </body> tag -->
+    <div id="address-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="signin-content">
+                <h2>Sign In</h2>
+                <form id="signin-form">
+                    <input type="email" id="signin-email" placeholder="Email" required>
+                    <input type="password" id="signin-password" placeholder="Password" required>
+                    <button type="submit">Sign In</button>
+                </form>
+            </div>
+            <div id="address-content" style="display: none;">
+                <h2>Select a delivery address</h2>
+                <div id="saved-addresses"></div>
+                <button id="add-address-btn">Add a new address</button>
+                <div id="new-address-form" style="display: none;">
+                    <select id="state" required>
+                        <option value="">Select State</option>
+                    </select>
+                    <select id="city" required disabled>
+                        <option value="">Select City</option>
+                    </select>
+                    <input type="text" id="pincode" placeholder="Pincode" required>
+                    <input type="text" id="street" placeholder="Street" required>
+                    <input type="text" id="house-no" placeholder="House No." required>
+                    <button id="save-address-btn">Save Address</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile-menu-toggle">
+        <i class="fas fa-bars"></i>
+    </div>
+    <div class="mobile-menu">
+        <a href="#">Today's Deals</a>
+        <a href="#">Customer Service</a>
+        <a href="#">Registry</a>
+        <a href="#">Gift Cards</a>
+        <a href="#">Sell</a>
+    </div>
+</body>
+</html>

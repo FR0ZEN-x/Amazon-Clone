@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone - Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="Index.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="navlogo border">
+                <a href="Index.html">
+                    <div class="logo"></div>
+                </a>
+            </div>
+            
+            <div class="nav-address border">
+                <div class="address-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="address-content">
+                    <p class="address-p1">Deliver to</p>
+                    <p class="address-p2">India</p>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <select class="search-select">
+                    <option value="all" selected>All</option>
+                    <!-- Add other options here -->
+                </select>
+                <input type="text" placeholder="Search Amazon" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="nav-region border">
+                <img src="India_image.png" alt="Indian Flag" class="indian-flag">
+                <select class="region-select">
+                    <option value="EN" selected>English</option>
+                    <option value="HI">हिंदी (Hindi)</option>
+                    <option value="BN">বাংলা (Bengali)</option>
+                    <option value="TE">తెలుగు (Telugu)</option>
+                    <option value="MR">मराठी (Marathi)</option>
+                    <option value="TA">தமிழ் (Tamil)</option>
+                </select>
+            </div>
+
+            <div class="nav-signin border">
+                <P><span>Hello, sign in</span></P>
+                <P class="signin-p1">Accounts & Lists</P>
+                <div class="signin-dropdown">
+                    <a href="register.html">Create Account</a>
+                    <a href="login.html">Sign In</a>
+                </div>
+            </div>
+
+            <div class="nav-orders border">
+                <P><span>Returns</span></P>
+                <P class="signin-p1">& Orders</P>
+            </div>
+
+            <div class="nav-cart border">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-text">Cart</span>
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-all border">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+           
+            <div class="panel-ops">
+                <p class="border">Today's Deals</p>
+                <p class="border">Customer Service</p>
+                <p class="border">Registry</p>
+                <p class="border">Gift Cards</p>
+                <p class="border">Sell</p>
+            </div>
+
+            <div class="panel-deals border">
+                Shop deals in Electronics
+            </div>
+        </div>
+    </header>
+
+    <div class="login-container">
+        <div class="login-logo"></div>
+        <div class="login-box">
+            <h1>Sign-In</h1>
+            <form id="login-form">
+                <label for="email">Email or mobile phone number</label>
+                <input type="text" id="email" name="email" required>
+                
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                
+                <button type="submit">Sign-In</button>
+            </form>
+            <p class="login-help">By continuing, you agree to Amazon's <a href="#">Conditions of Use</a> and <a href="#">Privacy Notice</a>.</p>
+        </div>
+        <div class="create-account">
+            New to Amazon? <a href="register.html">Create your Amazon account</a>
+        </div>
+    </div>
+    
+    <script src="Index.js"></script>
+    <script src="login.js"></script>
+</body>
+</html>

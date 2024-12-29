@@ -1,0 +1,104 @@
+.register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    margin-top: 100px; /* Adjust this value as needed */
+}
+
+.register-logo {
+    background-image: url('amazon-logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 103px;
+    height: 31px;
+    margin-bottom: 18px;
+}
+
+.register-box {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px 26px;
+    width: 300px;
+}
+
+.register-box h1 {
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#register-form label {
+    font-weight: 700;
+    font-size: 13px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+}
+
+#register-form input {
+    height: 31px;
+    padding: 3px 7px;
+    margin-bottom: 10px;
+    border: 1px solid #a6a6a6;
+    border-radius: 3px;
+}
+
+#register-form button {
+    height: 31px;
+    background: #f0c14b;
+    border: 1px solid #a88734;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.register-help {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.register-login {
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.register-login a {
+    color: #0066c0;
+    text-decoration: none;
+}
+
+.register-login a:hover {
+    text-decoration: underline;
+    color: #c45500;
+}
+
+/* Add these media queries at the end of the file */
+@media screen and (max-width: 480px) {
+    .register-box {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .register-container {
+        padding-top: 10px;
+    }
+    .register-box {
+        width: 90%;
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .register-box h1 {
+        font-size: 24px;
+    }
+    #register-form input, #register-form button {
+        font-size: 14px;
+    }
+}
