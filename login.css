@@ -4,10 +4,14 @@
     align-items: center;
     padding-top: 20px;
     margin-top: 100px; /* Adjust this value as needed */
+    max-width: 400px;
+    margin: 40px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
 }
 
 .login-logo {
-    background-image: url('amazon-logo.png');
+    background-image: url('Images/amazon-logo.png');
     background-size: contain;
     background-repeat: no-repeat;
     width: 103px;
@@ -101,6 +105,27 @@
     background: linear-gradient(to bottom,#f7f8fa,#e7e9ec);
     border: 1px solid #adb1b8;
     border-radius: 3px;
+    cursor: pointer;
+}
+
+.login-container h2 {
+    margin-bottom: 15px;
+}
+
+.login-container form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.login-container form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.login-container form button {
+    margin-top: 15px;
+    padding: 10px 20px;
     cursor: pointer;
 }
 

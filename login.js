@@ -15,4 +15,12 @@ document.addEventListener('DOMContentLoaded', function() {
     createAccountButton.addEventListener('click', function() {
         window.location.href = 'register.html';
     });
+
+    const form = document.querySelector('.login-container form');
+    if (form) {
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('Login logic would go here.');
+        });
+    }
 });

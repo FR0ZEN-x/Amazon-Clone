@@ -4,10 +4,14 @@
     align-items: center;
     padding-top: 20px;
     margin-top: 100px; /* Adjust this value as needed */
+    max-width: 400px;
+    margin: 40px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
 }
 
 .register-logo {
-    background-image: url('amazon-logo.png');
+    background-image: url('Images/amazon-logo.png');
     background-size: contain;
     background-repeat: no-repeat;
     width: 103px;
@@ -75,6 +79,27 @@
 .register-login a:hover {
     text-decoration: underline;
     color: #c45500;
+}
+
+.register-container h2 {
+    margin-bottom: 15px;
+}
+
+.register-container label {
+    display: block;
+    margin-top: 10px;
+}
+
+.register-container input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.register-container button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
 }
 
 /* Add these media queries at the end of the file */

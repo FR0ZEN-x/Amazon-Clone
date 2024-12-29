@@ -29,7 +29,7 @@
     width: 100%;
 }
 .logo{
-    background-image: url("Amazon_logo.png");
+    background-image: url("Images/Amazon_logo.png");
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -211,7 +211,7 @@ span{
     font-weight: 700;
 }
 .body{
-    background-image: url("body_image.jpg");
+    background-image: url("Images/body_image.jpg");
     height: 350px;
     background-size: cover;
     display: flex;

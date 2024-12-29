@@ -27,4 +27,12 @@ document.addEventListener('DOMContentLoaded', function() {
             window.location.href = 'login.html';
         }, 1500);
     });
+
+    const form = document.querySelector('.register-container form');
+    if (form) {
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('Registration logic would go here.');
+        });
+    }
 });
