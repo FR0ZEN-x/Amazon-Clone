@@ -43,6 +43,7 @@ The Amazon Clone frontend project aims to provide a similar look and feel to the
 
 
 **Register Page**
+
 ![Register Page](Images/register_screenshot.png)
 
 ## License
