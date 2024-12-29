@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Amazon Clone Frontend Project
 
 This is a frontend project that replicates the Amazon website's user interface. It is built using HTML, CSS, and JavaScript.
